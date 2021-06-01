@@ -1,0 +1,65 @@
+.bg {
+    position: relative;
+    background: url("about-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* -------------FadeInUp Animation-----------------*/
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 2.5rem, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 2.5rem, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-direction: 1s;
+    -webkit-animation-fill-mode: 1s;
+}
+
+.animatedFadeUp {
+    opacity: 0;
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.textfont {
+    /* display: flex;
+        flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-family: "Roboto Conesed", serif;
+    position: absolute;
+    top: 20rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

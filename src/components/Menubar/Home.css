@@ -1,0 +1,58 @@
+.lobtop {
+    position: relative;
+    background: url(./laptop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto Conesed", serif;
+    position: absolute;
+    top:25rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.main-info h1 {
+    color: orange;
+    background-color:  rgba(0, 0, 0, 0.637);
+    border-radius: 1.3rem;
+    padding: 0.7rem;
+    text-transform:capitalize;
+    font-size: 3.5rem;
+}
+
+/*--------------------Typed text-------------------------*/
+
+.typed-text {
+    font-size: 3rem;
+    color: aliceblue;
+    
+}
+
+/*--------------------contact me-------------------------*/
+
+.btn-contact-me {
+    border: 1px solid red;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: white;
+    margin: 2rem;
+}
+
+.btn-contact-me:hover {
+    background-color: rgba(255, 57, 57, 0.589);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-out;
+}
+
