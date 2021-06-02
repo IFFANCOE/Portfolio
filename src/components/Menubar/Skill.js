@@ -1,9 +1,10 @@
 import React from 'react'
+import '../animated text/animated_fadeup.css'
 
 const Skill = () => {
     return (
         <div>
-            <div>
+            <div className="  fadeInUp animated animatedFadeUp">
                 <h1>
                     Languages <br />
                     HTML
@@ -15,7 +16,7 @@ const Skill = () => {
                     Dart
                     </h1>
             </div>
-            <div>
+            <div className="delay1 fadeInUp animated animatedFadeUp">
                 <h1>
                     Tools/Libraries <br />
                  React
@@ -24,7 +25,7 @@ const Skill = () => {
                  Flutter
                  </h1>
             </div>
-            <div>
+            <div className="delay2 fadeInUp animated animatedFadeUp">
                 <h1>
 
 
