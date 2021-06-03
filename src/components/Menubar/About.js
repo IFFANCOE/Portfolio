@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import UseAnimations from "react-useanimations";
-import github from "react-useanimations/lib/github"
+import github from "react-useanimations/lib/github";
 import facebook from "react-useanimations/lib/facebook";
 import twitter from "react-useanimations/lib/twitter";
 
@@ -17,7 +17,7 @@ const About = () => {
         <div className="bg bg-light ">
             <div className="about__content fadeInUp animated animatedFadeUp">
                 <div className="textfont">
-                    <h1 >
+                    <h3 >
                         I am a person who likes challenges and is always <br />
                         enthusiastic. Is a talkative person Have a good relationship. <br />
                         Happy with work and a person who likes to succeed, my aim <br />
@@ -26,7 +26,7 @@ const About = () => {
                         basic knowledge in software to develop my skills <br />
                         continuously to master it. I am confident in my abilities in <br />
                         finding interesting concepts to develop applications.<br />
-                    </h1>
+                    </h3>
                         <ul className="textleft">
                             <li className="delay1 fadeInUp animated animatedFadeUp">
                             <BsPerson/>
