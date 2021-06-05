@@ -1,0 +1,30 @@
+
+.about_content{
+font-family: "Roboto Conesed", serif;
+   font-size: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+
+
+
+.textfont {
+    margin-top: 4rem;
+    font-family: "Roboto Conesed", serif;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.textleft {
+    padding: 0;
+    margin-left: 0;
+    list-style-type: none;
+    font-size: 1.2rem;
+}

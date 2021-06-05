@@ -1,6 +1,6 @@
 .lobtop {
     position: relative;
-    background: url(./laptop.jpg) no-repeat;
+    background: url(../laptop.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -23,7 +23,7 @@
 
 .main-info h1 {
     color: orange;
-    background-color:  rgba(0, 0, 0, 0.637);
+    background-color:  rgba(24, 24, 24, 0.521);
     border-radius: 1.3rem;
     padding: 0.7rem;
     text-transform:capitalize;

@@ -1,8 +1,10 @@
 import React from 'react'
 import Typed from "react-typed";
-import './Home.css';
+import '../Menubar/css/Home.css';
 import Particles from "react-particles-js"
-import './About.css';
+import '../Menubar/css/About.css';
+import '../animated text/animated_fadeup.css'
+
 
 const Home = () => {
     return (
@@ -28,9 +30,9 @@ const Home = () => {
                     }
                 }} />
             <div className="fadeInUp animated animatedFadeUp">
-                <div className="main-info">
+                <div className="main-info ">
                     <h1>I'm Iffan Pathan</h1>
-                    <Typed className="typed-text"
+                    <Typed className="typed-text "
                         strings={["Web Design", "Front-end Developer"]}
                         typeSpeed={40}
                         backSpeed={60}

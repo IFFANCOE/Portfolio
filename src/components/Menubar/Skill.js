@@ -1,14 +1,13 @@
 import { color } from '@chakra-ui/styled-system';
 import React from 'react';
 import '../animated text/animated_fadeup.css';
-import './Skill.css';
+import '../Menubar/css/Skill.css';
 
 const Skill = () => {
     return (
-        <div className="about_content">
+        <div className=" bg-light about_content">
             <div className="fadeInUp animated animatedFadeUp" style={{ textTransform: 'uppercase' }}>
-                <h1 style={{ fontSize: '3rem' }} className="topic" >My Skills</h1>
-
+                <span style={{ fontSize: '3rem' }} className="topic" >My Skills</span>
             </div>
             <div >
                 <h3 className="topic delay1 fadeInUp animated animatedFadeUp" > Languages  </h3>
