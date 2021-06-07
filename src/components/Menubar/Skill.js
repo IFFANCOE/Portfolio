@@ -16,19 +16,23 @@ const Skill = () => {
                     #Next.js
                     #CSS/SCSS
                     #JAVA Script
-                    #Leadership
-                    #Premiere pro
                     #Dart
+                    #Python
+                    #C / C# / C++
                     </span>
 
                 <div >
                     <h3 className="topic delay1 fadeInUp animated animatedFadeUp"  >Tools/Libraries </h3>
-                    
-                    <span className="delay6 fadeInUp animated animatedFadeUp"> #React 
-                      #React Native 
-                      #Next 
-                     #Flutter </span>
-                
+
+                    <span className="delay6 fadeInUp animated animatedFadeUp">
+                        #React
+                        #React Native
+                        #Next
+                        #Flutter
+                        #Express
+                        #REST API
+                        </span>
+
                 </div>
                 <div >
                     <h3 className="topic delay1 fadeInUp animated animatedFadeUp"  >Databases </h3>
