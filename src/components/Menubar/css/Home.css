@@ -14,7 +14,7 @@
     align-items: center;
     font-family: "Roboto Conesed", serif;
     position: absolute;
-    top:25rem;
+    top: 25rem;
     bottom: 0;
     right: 0;
     left: 0;
@@ -23,10 +23,9 @@
 
 .main-info h1 {
     color: orange;
-    background-color:  rgba(24, 24, 24, 0.521);
     border-radius: 1.3rem;
     padding: 0.7rem;
-    text-transform:capitalize;
+    text-transform: capitalize;
     font-size: 3.5rem;
 }
 
@@ -35,7 +34,6 @@
 .typed-text {
     font-size: 3rem;
     color: aliceblue;
-    
 }
 
 /*--------------------contact me-------------------------*/
@@ -56,3 +54,7 @@
     transition: all 0.2s ease-out;
 }
 
+.about_intro {
+    display: flex;
+    margin-right: 15rem;
+}
