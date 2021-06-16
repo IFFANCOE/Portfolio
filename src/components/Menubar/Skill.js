@@ -5,7 +5,7 @@ import '../Menubar/css/Skill.css';
 
 const Skill = () => {
     return (
-        <div className=" bg-light about_content">
+        <div className=" bg-light about_skill">
             <div className="fadeInUp animated animatedFadeUp" style={{ textTransform: 'uppercase' }}>
                 <span style={{ fontSize: '3rem' }} className="topic" >My Skills</span>
             </div>

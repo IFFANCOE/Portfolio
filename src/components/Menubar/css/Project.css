@@ -1,25 +1,38 @@
+.about_project {
+    font-family: "Roboto Conesed", serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
 .project {
     display: flex;
-    justify-content: space-around;
-    
 
 }
 
-.container {
-
-    margin-top: 4rem;
+.containerA {
     flex-wrap: wrap;
+    margin: 50px;
     border: 0.5px solid rgb(0, 0, 0);
     border: 1px solid;
-    margin: 50px;
-    padding: 10px;
     box-shadow: 5px 10px #888888;
+    background-color: rgba(97, 97, 97, 0.075);
+    
+}
+.containerA:hover{
+    
 }
 
 .item {
     width: 490px;
     height: 350px;
     border-radius: 5px;
+    margin: 1.9rem;
     border: 2px solid rgb(22, 18, 18);
     display: flex;
     align-items: center;
@@ -27,11 +40,15 @@
     color: rgb(0, 0, 0);
     position: relative;
     transition: all .5s ease;
+    background-color: black;
 }
+
+
 
 .text_position {
     position: absolute;
     font-size: 2rem;
+    color: rgb(255, 255, 255);
 }
 
 img {
