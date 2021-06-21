@@ -38,7 +38,7 @@ const Home = () => {
                             typeSpeed={40}
                             backSpeed={60}
                             loop />
-                        <a href="#" className="btn-contact-me">contact me</a>
+                        {/* <a href="#" className="btn-contact-me">contact me</a> */}
                     </div>
                 </div>
             </div>

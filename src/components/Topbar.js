@@ -50,9 +50,9 @@ const Topbar = () => {
     <nav className="navbar navbar-expand-lg navbar-mainbg" >
 
 
-      <NavLink className="navbar-brand navbar-logo" style={{fontSize:"3rem" }} to="/home" exact>
-         IF
-          </NavLink>
+      <NavLink className="navbar-brand navbar-logo" style={{ fontSize: "3rem" }} to="/home" exact>
+        Portfolio
+      </NavLink>
 
       <button className="navbar-toggler"
         onClick={function () {
@@ -76,37 +76,37 @@ const Topbar = () => {
           </div>
           {/* <!-- Nav Links --> */}
           <li className="nav-item active">
-            <NavLink className="nav-link" to="/home" exact  style={{fontSize:"1.4rem"}}> 
+            <NavLink className="nav-link" to="/home" exact style={{ fontSize: "1.4rem" }}>
               <i className="fas fa-tachometer-alt">  </i>
-                Home
-                </NavLink>
+              Home
+            </NavLink>
           </li>
 
           <li className="nav-item ">
-            <NavLink className="nav-link" to="/about" exact style={{fontSize:"1.4rem"}}>
+            <NavLink className="nav-link" to="/about" exact style={{ fontSize: "1.4rem" }}>
               <i className="fas fa-address-book">  </i>
-                ABOUT
-                </NavLink>
+              ABOUT
+            </NavLink>
           </li>
           <li className="nav-item ">
-            <NavLink className="nav-link" to="/project" exact style={{fontSize:"1.4rem"}}>
+            <NavLink className="nav-link" to="/project" exact style={{ fontSize: "1.4rem" }}>
               <i className="fas fa-clone">  </i>
-                Project
-                </NavLink>
+              Project
+            </NavLink>
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/skill" exact style={{fontSize:"1.4rem"}}>
+            <NavLink className="nav-link" to="/skill" exact style={{ fontSize: "1.4rem" }}>
               <i className="fas fa-chart-bar">  </i>
-                Skill
-                </NavLink>
+              Skill
+            </NavLink>
           </li>
 
           <li className="nav-item ">
-            <NavLink className="nav-link" to="/blog" exact style={{fontSize:"1.4rem"}}>
+            <NavLink className="nav-link" to="/blog" exact style={{ fontSize: "1.4rem" }}>
               <i className="fas fa-copy">  </i>
-                Blog
-                </NavLink>
+              Blog
+            </NavLink>
           </li>
         </ul>
       </div>

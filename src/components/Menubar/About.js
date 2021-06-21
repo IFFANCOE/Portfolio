@@ -29,13 +29,14 @@ const About = () => {
             <div className="bg-light about_content fadeInUp animated animatedFadeUp" >
                 <span className="topic" style={{ fontSize: '3rem' }}>About me </span>
 
-                <div className>
-                    <img src={myphoto} alt="My pictrue" style={{ width: '30%', borderRadius: '50%', boxShadow: '7px 1rem 5px  red ', margin: '3rem', opacity: '1', backgroundColor: "salmon" }} />
+                <div >
                 </div>
 
 
                 <div className="left textfont delay1 fadeInUp animated animatedFadeUp">
                     <div style={{ display: 'flex' }} >
+                    <img src={myphoto} alt="My pictrue" style={{ width: '25%', borderRadius: '50%', boxShadow: '7px 1rem 5px  red ', margin: '3rem', opacity: '1', backgroundColor: "salmon" }} />
+
                         <h3 >
                             I am a person who likes challenges and is always <br />
                             enthusiastic. Is a talkative person Have a good relationship. <br />
@@ -76,7 +77,7 @@ const About = () => {
                         </li>
                     </ul>
 
-                    <div style={{ display: 'flex' }}>
+                    {/* <div style={{ display: 'flex' }}>
 
                         <UseAnimations className="delay7 fadeInUp animated animatedFadeUp"
                             animation={github}
@@ -100,7 +101,7 @@ const About = () => {
                             loop={true}
                             strokeColor="black"
                         />
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
