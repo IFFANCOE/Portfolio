@@ -1,4 +1,4 @@
-import { color } from '@chakra-ui/styled-system';
+// import { color } from '@chakra-ui/styled-system';
 import React from 'react';
 import '../animated text/animated_fadeup.css';
 import '../Menubar/css/Skill.css';

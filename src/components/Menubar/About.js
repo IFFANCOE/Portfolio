@@ -1,8 +1,8 @@
 import React from 'react';
-import UseAnimations from "react-useanimations";
-import github from "react-useanimations/lib/github";
-import facebook from "react-useanimations/lib/facebook";
-import twitter from "react-useanimations/lib/twitter";
+// import UseAnimations from "react-useanimations";
+// import github from "react-useanimations/lib/github";
+// import facebook from "react-useanimations/lib/facebook";
+// import twitter from "react-useanimations/lib/twitter";
 import '../Menubar/css/About.css'
 import '../animated text/animated_fadeup.css'
 import { FiMail, FiHome } from 'react-icons/fi';

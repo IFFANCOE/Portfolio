@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import './Topbar.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { FiHome, FiAlignJustify, FiBellOff } from "react-icons/fi"; //ดึงมาจากไอคอนในไลบารี่
+// import { FiHome, FiAlignJustify, FiBellOff } from "react-icons/fi"; //ดึงมาจากไอคอนในไลบารี่
 import { NavLink } from 'react-router-dom';
 import $ from 'jquery';
 const Topbar = () => {

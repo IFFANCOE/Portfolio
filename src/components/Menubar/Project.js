@@ -1,9 +1,9 @@
 import React from 'react';
 import '../Menubar/css/Project.css';
-import game from './menu.PNG';
+// import game from './menu.PNG';
 import minipro from './mini_prproj.PNG';
 import deploymen from './deploymen.PNG';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const Project = () => {
