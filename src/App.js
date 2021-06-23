@@ -6,7 +6,7 @@ import Blog from "./components/Menubar/Blog";
 import Project from "./components/Menubar/Project";
 import Skill from "./components/Menubar/Skill";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (

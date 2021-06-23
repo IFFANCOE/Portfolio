@@ -39,17 +39,21 @@
 /*--------------------contact me-------------------------*/
 
 .btn-contact-me {
+
+    background-color:transparent ;
     border: 1px solid red;
     text-transform: uppercase;
     border-radius: 50px;
     padding: 0.625rem 0.75rem 0.75rem 0.75rem;
     color: white;
     margin: 2rem;
+    font-size: 1.5rem;
 }
 
 .btn-contact-me:hover {
     background-color: rgba(255, 57, 57, 0.589);
     text-decoration: none;
+    color: rgb(0, 225, 255);
     padding: 0.5rem 1rem;
     transition: all 0.2s ease-out;
 }

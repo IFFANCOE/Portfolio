@@ -4,6 +4,8 @@ import '../Menubar/css/Home.css';
 import Particles from "react-particles-js"
 import '../Menubar/css/About.css';
 import '../animated text/animated_fadeup.css'
+import About from './About';
+import {Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -38,7 +40,6 @@ const Home = () => {
                             typeSpeed={40}
                             backSpeed={60}
                             loop />
-                        {/* <a href="#" className="btn-contact-me">contact me</a> */}
                     </div>
                 </div>
             </div>
