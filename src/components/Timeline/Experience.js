@@ -4,7 +4,6 @@ import { VerticalTimeline, VerticalTimelineElement, } from "react-vertical-timel
 import { ReactComponent as WorkIcon } from "./work.svg";
 import { ReactComponent as SchoolIcon } from "./school.svg";
 import "react-vertical-timeline-component/style.min.css";
-import { color } from "@chakra-ui/react";
 
 function Experience() {
     let workIconStyles = { background: "rgb(0, 255, 100)"};
@@ -18,7 +17,7 @@ function Experience() {
                     let isWorkIcon = element.icon === "work";
                     return (
                         <VerticalTimelineElement
-                            key={element.key}
+                            key={element.id}
                             date={element.date}
                             dateClassName="date"
                             iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}

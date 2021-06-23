@@ -5,7 +5,7 @@ import '../animated text/animated_fadeup.css'
 
 const Blog = () => {
     return (
-        <div className="bg-light about_content" >
+        <div className="bg-light about_blog" >
             <div className="fadeInUp animated animatedFadeUp" style={{ textTransform: 'uppercase' }}>
                 <h1 style={{ fontSize: '3rem' }} className="topic" >My Blog</h1>
             </div>

@@ -1,7 +1,9 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Bachelor of Computer Engineering Prince of Songkla University",
+    title: "Bachelor of Computer Engineering  Prince of Songkla University",
+    description:
+      "Graduated from Computer Engineering",
     location: "Prince of Songkla University , Phuket Campus,Thailand",
     date: "2021",
     icon: "school",
@@ -34,6 +36,7 @@ let timelineElements = [
     date: "12 October 2019",
     icon: "work",
   },
+
 ];
 
 export default timelineElements;
