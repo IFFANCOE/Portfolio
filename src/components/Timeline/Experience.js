@@ -7,8 +7,8 @@ import "react-vertical-timeline-component/style.min.css";
 import { color } from "@chakra-ui/react";
 
 function Experience() {
-    let workIconStyles = { background: "rgb(255,255,255)"};
-    let schoolIconStyles = { background: "rgb(255,255,255)" };
+    let workIconStyles = { background: "rgb(0, 255, 100)"};
+    let schoolIconStyles = { background: "rgb(34, 229, 255)" };
 
     return (
         <div>
