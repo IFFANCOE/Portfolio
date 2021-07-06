@@ -10,7 +10,10 @@
     height: 320vh;
 
 }
-
+a.navbar-brand.navbar-logo.active {
+    margin: 0;
+    padding: 0;
+}
 .textfont {
     margin-top: 4rem;
     font-family: "Roboto Conesed", serif;

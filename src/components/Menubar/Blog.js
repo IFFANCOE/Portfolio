@@ -10,7 +10,7 @@ const Blog = () => {
                 <h1 style={{ fontSize: '3rem' }} className="topic" >My Blog</h1>
             </div>
             <div className="about_medium delay1 fadeInUp animated animatedFadeUp">
-                <a href="https://medium.com/@Iffanpathan"> <SiMedium /> </a>
+                <a href="https://medium.com/@Iffanpathan" className="text-info bg-dark"> <SiMedium /> </a>
             </div>
         </div>
     )

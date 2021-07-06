@@ -4,8 +4,7 @@ import '../Menubar/css/Home.css';
 import Particles from "react-particles-js"
 import '../Menubar/css/About.css';
 import '../animated text/animated_fadeup.css'
-import About from './About';
-import {Link } from 'react-router-dom';
+
 
 
 const Home = () => {

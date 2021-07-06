@@ -24,10 +24,10 @@
     background-color: rgba(97, 97, 97, 0.075);
     
 }
-.containerA:hover{
-    
+a.navbar-brand.navbar-logo.active {
+    margin: 0;
+    padding: 0;
 }
-
 .item {
     width: 490px;
     height: 350px;
