@@ -13,10 +13,6 @@ i {
     margin-right: 10px;
 }
 
-.aboutBar {
-    margin: 200px;
-}
-
 .navbar-logo {
     padding: 15px;
     color: #fff;
@@ -56,6 +52,7 @@ a.navbar-brand.navbar-logo.active {
 #navbarSupportedContent li {
     list-style-type: none;
     float: left;
+    
 }
 
 #navbarSupportedContent ul li a {
@@ -102,8 +99,8 @@ a.navbar-brand.navbar-logo.active {
     transition-duration: 0.6s;
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     background-color: #fff;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     margin-top: 10px;
 }
 

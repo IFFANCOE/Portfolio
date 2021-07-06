@@ -47,70 +47,67 @@ const Topbar = () => {
 
   return (
 
-    <nav className="navbar navbar-expand-lg navbar-mainbg" >
+    <nav className="navbar navbar-expand-lg navbar-mainbg"   >
+      
+        <NavLink className="navbar-brand navbar-logo" style={{ fontSize: "2.5rem", margin: '1%' }} to="/home" exact>
+          Portfolio
+        </NavLink>
 
+        <button className="navbar-toggler"
+          onClick={function () {
+            setTimeout(function () {
+              animation();
+            })
+          }}
+          type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars text-white"></i>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto" >
+            {/* <!-- For Styling --> */}
+            <div className="hori-selector">
+              <div className="left"></div>
+              <div className="right"></div>
+            </div>
+            {/* <!-- Nav Links --> */}
+            <li className="nav-item active">
+              <NavLink className="nav-link" to="/home" exact style={{ fontSize: "1.4rem" }}>
+                <i className="fas fa-tachometer-alt">  </i>
+                Home
+              </NavLink>
+            </li>
 
-      <NavLink className="navbar-brand navbar-logo" style={{ fontSize: "3rem" ,margin:'10px'}} to="/home" exact>
-      Portfolio
-      </NavLink>
+            <li className="nav-item ">
+              <NavLink className="nav-link" to="/about" exact style={{ fontSize: "1.4rem" }}>
+                <i className="fas fa-address-book">  </i>
+                ABOUT
+              </NavLink>
+            </li>
+            <li className="nav-item ">
+              <NavLink className="nav-link" to="/project" exact style={{ fontSize: "1.4rem" }}>
+                <i className="fas fa-clone">  </i>
+                Project
+              </NavLink>
+            </li>
 
-      <button className="navbar-toggler"
-        onClick={function () {
-          setTimeout(function () {
-            animation();
-          })
-        }}
-        type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <i class="fas fa-bars text-white"></i>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/skill" exact style={{ fontSize: "1.4rem" }}>
+                <i className="fas fa-chart-bar">  </i>
+                Skill
+              </NavLink>
+            </li>
 
-        <ul className="navbar-nav ml-auto">
-          {/* <!-- For Styling --> */}
-          <div className="hori-selector">
-            <div className="left"></div>
-            <div className="right"></div>
-          </div>
-          {/* <!-- Nav Links --> */}
-          <li className="nav-item active">
-            <NavLink className="nav-link" to="/home" exact style={{ fontSize: "1.4rem" }}>
-              <i className="fas fa-tachometer-alt">  </i>
-              Home
-            </NavLink>
-          </li>
-
-          <li className="nav-item ">
-            <NavLink className="nav-link" to="/about" exact style={{ fontSize: "1.4rem" }}>
-              <i className="fas fa-address-book">  </i>
-              ABOUT
-            </NavLink>
-          </li>
-          <li className="nav-item ">
-            <NavLink className="nav-link" to="/project" exact style={{ fontSize: "1.4rem" }}>
-              <i className="fas fa-clone">  </i>
-              Project
-            </NavLink>
-          </li>
-
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/skill" exact style={{ fontSize: "1.4rem" }}>
-              <i className="fas fa-chart-bar">  </i>
-              Skill
-            </NavLink>
-          </li>
-
-          <li className="nav-item ">
-            <NavLink className="nav-link" to="/blog" exact style={{ fontSize: "1.4rem" }}>
-              <i className="fas fa-copy">  </i>
-              Blog
-            </NavLink>
-          </li>
-        </ul>
-      </div>
-
+            <li className="nav-item ">
+              <NavLink className="nav-link" to="/blog" exact style={{ fontSize: "1.4rem" }}>
+                <i className="fas fa-copy">  </i>
+                Blog
+              </NavLink>
+            </li>
+          </ul>
+        </div>
     </nav>
   )
 }
