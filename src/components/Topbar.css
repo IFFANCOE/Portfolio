@@ -13,6 +13,10 @@ i {
     margin-right: 10px;
 }
 
+.aboutBar {
+    margin: 200px;
+}
+
 .navbar-logo {
     padding: 15px;
     color: #fff;
@@ -23,10 +27,12 @@ i {
     background-color: #000000;
     padding: 0px;
 }
-a.navbar-brand.navbar-logo{
+
+a.navbar-brand.navbar-logo {
     margin: 0;
     padding: 0;
 }
+
 a.navbar-brand.navbar-logo.active {
     margin: 0;
     padding: 0;
@@ -35,8 +41,7 @@ a.navbar-brand.navbar-logo.active {
 #navbarSupportedContent {
     overflow: hidden;
     position: relative;
-    margin-left: 30rem;
-   
+    
 }
 
 #navbarSupportedContent ul {
@@ -46,7 +51,6 @@ a.navbar-brand.navbar-logo.active {
 
 #navbarSupportedContent ul li a i {
     margin-right: 10px;
-    
 }
 
 #navbarSupportedContent li {

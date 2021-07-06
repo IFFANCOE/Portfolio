@@ -8,6 +8,7 @@ const Topbar = () => {
 
   function animation() {
     var tabsNewAnim = $('#navbarSupportedContent');
+    var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
     var activeItemNewAnim = tabsNewAnim.find('.active');
     var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
     var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
@@ -49,7 +50,7 @@ const Topbar = () => {
     <nav className="navbar navbar-expand-lg navbar-mainbg" >
 
 
-      <NavLink className="navbar-brand navbar-logo" style={{ fontSize: "3rem" }} to="/home" exact>
+      <NavLink className="navbar-brand navbar-logo" style={{ fontSize: "3rem" ,margin:'10px'}} to="/home" exact>
       Portfolio
       </NavLink>
 
