@@ -23,6 +23,10 @@ i {
     background-color: #000000;
     padding: 0px;
 }
+a.navbar-brand.navbar-logo.active {
+    margin: 0;
+    padding: 0;
+}
 
 #navbarSupportedContent {
     overflow: hidden;

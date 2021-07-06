@@ -51,7 +51,7 @@ const Topbar = () => {
 
 
       <NavLink className="navbar-brand navbar-logo" style={{ fontSize: "3rem" }} to="/home" exact>
-        Portfolio
+      Portfolio
       </NavLink>
 
       <button className="navbar-toggler"
