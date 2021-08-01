@@ -1,6 +1,5 @@
 .about_blog{
     font-family: "Roboto Conesed", serif;
-   font-size: 2rem;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -10,7 +9,7 @@
 .about_medium{
     padding: 0;
     margin: 0;
-    font-size: 20rem;
+    font-size:2000%;
 }
 
 .about_medium a:hover , a:active{
@@ -18,4 +17,3 @@
     font-size: 110%;
     opacity: 1;
 }
-

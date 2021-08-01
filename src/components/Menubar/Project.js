@@ -6,17 +6,19 @@ import deploymen from './deploymen.PNG';
 // import { Link } from 'react-router-dom';
 
 
+
 const Project = () => {
     return (
 
-        <div>
+        <div >
             <div className="bg-light about_project fadeInUp animated animatedFadeUp">
                 <div >
                     <span className="topic" style={{ fontSize: '3rem' }}>My Project </span>
                 </div>
-                <div className=" project delay1 fadeInUp animated animatedFadeUp">
+                <div className=" project delay1 fadeInUp animated animatedFadeUp ">
 
                     <div className="containerA">
+
                         <a href="https://iffanpathan.medium.com/q-r-covid-19-reactjs-612b9e3ac90c">
                             <div className="item">
                                 <img src={minipro} alt="Minipro" style={{ width: '30rem' }} />

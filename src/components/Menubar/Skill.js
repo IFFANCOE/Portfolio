@@ -3,6 +3,8 @@ import React from 'react';
 import '../animated text/animated_fadeup.css';
 import '../Menubar/css/Skill.css';
 
+
+
 const Skill = () => {
     return (
         <div className=" bg-light about_skill">

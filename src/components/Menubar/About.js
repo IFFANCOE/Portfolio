@@ -29,9 +29,9 @@ const About = () => {
         <div  >
             <div className="bg-light about_content fadeInUp animated animatedFadeUp" >
                 <span className="topic" style={{ fontSize: '3rem' }}>About me </span>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 
-                    <div style={{ width: '500px', margin: 'auto', height: '110%' }}>
+                <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <div style={{ width: '100%', margin: 'auto', height: '110%' }}>
                         <img src={myphoto} alt="My pictrue" style={{ width: '100%', borderRadius: '50%', boxShadow: '7px 1rem 5px  red ', margin: '-3.5rem', opacity: '1', backgroundColor: "salmon" }} />
                     </div>
                     <div className="left textfont delay1 fadeInUp animated animatedFadeUp" style={{display:'flex',flexDirection:'column',justifyContent:'space-around'}}>
@@ -64,7 +64,7 @@ const About = () => {
                                 </li >
                                 <li className="delay5 fadeInUp animated animatedFadeUp">
                                     <Contact>
-                                        <FaUniversity style={{ color: '' }} />
+                                        <FaUniversity  />
                                         Prince of songkla university phuket campus </Contact>
                                 </li>
                                 <li className="delay6 fadeInUp animated animatedFadeUp">
