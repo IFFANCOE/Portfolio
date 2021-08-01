@@ -18,11 +18,10 @@ const Project = () => {
                 <div className=" project delay1 fadeInUp animated animatedFadeUp ">
 
                     <div className="containerA">
-
                         <a href="https://iffanpathan.medium.com/q-r-covid-19-reactjs-612b9e3ac90c">
-                            <div className="item">
-                                <img src={minipro} alt="Minipro" style={{ width: '30rem' }} />
-                                <p className="text_position"> Q and R COVID-19(ReactJS) </p>
+                            <div className="image-text">
+                                <img src={minipro} alt="Minipro" />
+                                <p className="text_position">Q and R COVID-19 </p>
                             </div>
                         </a>
                         <div>
@@ -34,8 +33,8 @@ const Project = () => {
                     </div>
                     <div className="containerA">
                         <a href="https://iffanpathan.medium.com/web-deploymen-936a22c742eb">
-                            <div className="item">
-                                <img src={deploymen} alt="Deploymen" style={{ width: '30rem' }} />
+                            <div className="image-text">
+                                <img src={deploymen} alt="Deploymen" />
                                 <p className="text_position"> pm2 and Nginx as reverse proxy </p>
                             </div>
                         </a>

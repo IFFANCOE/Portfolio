@@ -7,18 +7,26 @@
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 200vh;
 }
 
 .project {
     display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content:center;
+    flex-wrap: wrap;
+   
 }
 
 .containerA {
-    flex-wrap: wrap;
-    margin: 50px;
+    display: block;
+    box-sizing: border-box;
+    width:33.33%;
+    padding-left:10px;
+    padding-right: 10px;
+    margin-left: 60px;
     border: 0.5px solid rgb(0, 0, 0);
-    border: 1px solid;
     box-shadow: 5px 10px #888888;
     background-color: rgba(97, 97, 97, 0.075);
 }
@@ -26,18 +34,17 @@ a.navbar-brand.navbar-logo.active {
     margin: 0;
     padding: 0;
 }
-.item {
-    width: 490px;
+.image-text {
+    width: 100%;
     height: 350px;
     border-radius: 5px;
-    margin: 1.9rem;
     border: 2px solid rgb(22, 18, 18);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(0, 0, 0);
     position: relative;
     transition: all .5s ease;
+    margin-top: 10px;
     background-color: black;
 }
 
@@ -45,11 +52,13 @@ a.navbar-brand.navbar-logo.active {
 
 .text_position {
     position: absolute;
-    font-size: 2rem;
+    font-size: 100%;
     color: rgb(255, 255, 255);
 }
 
 img {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -62,4 +71,14 @@ img:hover {
     background-color: currenbtColor;
     opacity: 0.4;
     cursor: pointer;
+}
+
+@media screen and (max-width:1250px){
+    .containerA {
+        width: 40%;
+        margin: 20px;
+    }
+    img {
+        width: 100%;
+    }
 }
