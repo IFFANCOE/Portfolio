@@ -10,6 +10,15 @@ let timelineElements = [
   },
   {
     id: 2,
+    title: "Business Developer (IT)",
+    description:
+      "Create a website for a job at Magic Miracle Co., Ltd. by writing PHP framework Codeigniter 4, HTML, CSS",
+    location: "Miracle Life Coach , Bangkok, Thailand",
+    date: "17 May 2021 - 16 july 2021",
+    icon: "work",
+  },
+  {
+    id: 3,
     title: "Web Development",
     location: "Prince of Songkla University , Phuket Campus,Thailand",
     description:
@@ -19,7 +28,7 @@ let timelineElements = [
 
   },
   {
-    id: 3,
+    id: 4,
     title: "Volunteer Run to raise money",
     location: "Phuket, Thailand",
     description:
@@ -28,7 +37,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 4,
+    id: 5,
     title: "Android programming basics",
     location: "Prince of Songkla University , Phuket Campus,Thailand",
     description:
