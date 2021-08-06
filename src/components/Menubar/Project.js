@@ -13,7 +13,7 @@ const Project = () => {
                 <div >
                     <span className="topic" style={{ fontSize: '3rem' }}>My Project </span>
                 </div>
-                <div className="  delay1 fadeInUp animated animatedFadeUp ">
+                <div className=" style_project delay1 fadeInUp animated animatedFadeUp ">
 
                     <div className="containerA" >
                         {projects.map((project) => {

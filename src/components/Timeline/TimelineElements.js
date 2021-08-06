@@ -12,7 +12,7 @@ let timelineElements = [
     id: 2,
     title: "Business Developer (IT)",
     description:
-      "Create a website for a job at Magic Miracle Co., Ltd. by writing PHP framework Codeigniter 4, HTML, CSS",
+      "Create a website for a job at Magic Miracle Co., Ltd. by writing PHP framework Codeigniter 4, HTML, CSS ,and develop the company's Miracle Life Coach website ,add courses online and decorate CSS ",
     location: "Miracle Life Coach , Bangkok, Thailand",
     date: "17 May 2021 - 16 july 2021",
     icon: "work",

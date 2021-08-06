@@ -12,6 +12,9 @@
     background-position: center;
     height: 150vh;
 }
+.style_project{
+    margin-top:5%;
+}
 .containerA {
     display: grid;
     grid-template-columns: 1fr 1fr;
