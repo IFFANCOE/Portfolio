@@ -13,12 +13,12 @@ const Project = () => {
                 <div >
                     <span className="topic" style={{ fontSize: '3rem' }}>My Project </span>
                 </div>
-                <div className=" project delay1 fadeInUp animated animatedFadeUp ">
+                <div className="  delay1 fadeInUp animated animatedFadeUp ">
 
                     <div className="containerA" >
                         {projects.map((project) => {
                             return (
-                                <div index={project.id} >
+                                <div index={project.id} className="item">
                                     <a href={project.url}>
                                         <div className="image-text">
                                             <img src={project.thumbnail} alt="Minipro" />
