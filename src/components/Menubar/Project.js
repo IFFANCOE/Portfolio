@@ -14,7 +14,6 @@ const Project = () => {
                     <span className="topic" style={{ fontSize: '3rem' }}>My Project </span>
                 </div>
                 <div className=" style_project delay1 fadeInUp animated animatedFadeUp ">
-
                     <div className="containerA" >
                         {projects.map((project) => {
                             return (
@@ -26,13 +25,20 @@ const Project = () => {
                                         </div>
                                     </a>
                                     <div>
-                                        <span style={{ fontSize: '1.1rem', opacity: '0.7' }}>
+                                        <span style={{ fontSize: '1.1rem', opacity: '0.7'}}>
                                             {project.title}
                                         </span>
+                                    </div>
+                                    <div className="px-6 pt-4 pb-2">
+                                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" >{project.teg1} </span>
+                                        <span className="inline-block bg-red-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" >{project.teg2} </span>
+                                        <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" >{project.teg3} </span>
+                                        <span className="inline-block bg-yellow-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" >{project.teg4} </span>
                                     </div>
                                 </div>
                             )
                         })}
+                        
                     </div>
                 </div>
             </div >
