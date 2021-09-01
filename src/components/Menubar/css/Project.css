@@ -11,7 +11,6 @@
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 150vh;
 }
 
 .style_project {
@@ -76,23 +75,8 @@ img:hover {
     opacity: 0.4;
     cursor: pointer;
 }
-/* 
-.teg {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-}
 
-.teg-content {
-    display: inline-block;
-    background-color: gray;
-    border-radius: 50%;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-} */
-
-@media screen and (max-width:1250px) {
+/* @media screen and (max-width:1250px) {
     .containerA {
         width: 90%;
         margin: 20px;
@@ -100,4 +84,4 @@ img:hover {
     img {
         width: 100%;
     }
-}
+} */

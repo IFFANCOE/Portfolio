@@ -36,14 +36,7 @@ const About = () => {
                     </div>
                     <div className="left textfont delay1 fadeInUp animated animatedFadeUp" style={{display:'flex',flexDirection:'column',justifyContent:'space-around'}}>
                         <h3 >
-                            I am a person who likes challenges and is always <br />
-                            enthusiastic. Is a talkative person Have a good relationship. <br />
-                            Happy with work and a person who likes to succeed, my aim <br />
-                            is to work in software to develop because I have knowledge <br />
-                            and understanding of the software. Another reason is that I need <br />
-                            basic knowledge in software to develop my skills <br />
-                            continuously to master it. I am confident in my abilities in <br />
-                            finding interesting concepts to develop applications.<br />
+                        I am a programmer, who is excited to develop useful things for people. I usually work as a front-end developer. I currently interested in website development.
                         </h3>
                         <div >
                             <ul className="textleft">
@@ -60,7 +53,7 @@ const About = () => {
                                 <li className="delay4 fadeInUp animated animatedFadeUp">
                                     <Contact>
                                         <FiMail />
-                                        iffan.p@hotmail.com </Contact>
+                                        iffan.pth@gmail.com </Contact>
                                 </li >
                                 <li className="delay5 fadeInUp animated animatedFadeUp">
                                     <Contact>

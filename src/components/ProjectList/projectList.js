@@ -7,7 +7,7 @@ let projects = [
     {
         id: '1',
         name: ' Q and R COVID-19(ReactJS)',
-        title: 'มินิโปรเจคนี้สร้างขึ้นมาเพื่อช่วยผู้คน ในการวัดความเสี่ยงของโรคโควิด-19ในสถานการณ์ ณ ตอนนี้ที่เกิดขึ้นคือโรคระบาดโคโรน่าไวรัส',
+        title: 'โปรเจคนี้สร้างขึ้นมาเพื่อช่วยผู้คน ในการวัดความเสี่ยงของโรคโควิด-19ในสถานการณ์ ณ ตอนนี้ที่เกิดขึ้นคือโรคระบาดโคโรน่าไวรัสโดยมีคำถาม 5 ข้อ ให้ผู้ใช้ตอบหลังจากนั้นจะประเมินผลและบอกวิธีแก้ไขเบื้องต้นเพื่อป้องกันโควิด-19',
         thumbnail: minipro,
         url: 'https://iffanpathan.medium.com/q-r-covid-19-reactjs-612b9e3ac90c',
         teg1:'#ReactJS ',
@@ -41,12 +41,12 @@ let projects = [
     {
         id: '4',
         name: ' Todo (react-redux-toolkit) ',
-        title: 'ใช้ Redux-toolkit เพื่อแก้ปัญหาการใช้งาน Redux ที่ยุ่งยาก ',
+        title: 'Todo List มี api ระบบ Login / Register เก็บข้อมูลผู้ที่ Register ลงใน Database ใช้เป็น NoSQL MongoDB และ api ของ todo ใช้ Redux-toolkit เพื่อแก้ปัญหาการใช้งาน Redux ที่ยุ่งยาก ',
         thumbnail: Todo,
         url: 'https://github.com/IFFANCOE/Todo-reduxjs-toolkit-Thunk',
         teg1:'#ReactJS ',
         teg2:"#Redux-toolkit",
-        teg3:"#Boostrap",
+        teg3:"#MongoDB",
         teg4:"#api",
     },
 

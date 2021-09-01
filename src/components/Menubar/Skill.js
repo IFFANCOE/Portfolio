@@ -15,11 +15,11 @@ const Skill = () => {
                 <h3 className="topic delay1 fadeInUp animated animatedFadeUp" > Languages  </h3>
                 <span className="delay6 fadeInUp animated animatedFadeUp">
                     #HTML
-                    #Next.js
                     #CSS/SCSS
                     #JAVA Script
                     #Dart
                     #Python
+                    #Java
                     #C / C# / C++
                     </span>
 
@@ -29,7 +29,8 @@ const Skill = () => {
                     <span className="delay6 fadeInUp animated animatedFadeUp">
                         #React
                         #React Native
-                        #Next
+                        #Next.js
+                        #Angular
                         #Flutter
                         #Express
                         #REST API
